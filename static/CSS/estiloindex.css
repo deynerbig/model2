@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: #333;
+}
+
+/* Encabezado principal */
+div {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(11, 188, 11);
+}
+
+/* Estilo del enlace */
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(17, 184, 17);
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: green;
+}
